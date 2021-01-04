@@ -47,7 +47,10 @@ sections:
               - path: /signing-transactions
               - path: /public-registry-tutorial
       - path: /build-apps # is an overview page
-      - path: /start-mining # is an overview page
+      - path: /start-mining
+        pages:
+          - path: /overview
+          - path: /testnet
 
   - title: Technology
     pages:
