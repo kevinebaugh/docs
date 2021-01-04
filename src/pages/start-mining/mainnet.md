@@ -56,11 +56,11 @@ Finally, start bitcoind as follows:
 bitcoind -conf=path/to/bitcoin.conf
 ```
 
-It will take a few days for the node to synchronize with the Bitcoin mainnet -- be patient!
+It may take a few days for the node to synchronize with the Bitcoin mainnet.
 
 ## Running a miner
 
-First, we need to generate a keychain. With this keychain, we'll purchase some BTC from a crytpocurrency exchange, and then use that BTC to start mining.
+First, a keychain needs to be generated. With this keychain, we'll purchase some BTC from a crytpocurrency exchange, and then use that BTC to start mining.
 
 To get a keychain, the simplest way is to use the `stacks-cli`. We'll use the `make_keychain` command.
 

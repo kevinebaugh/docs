@@ -49,7 +49,7 @@ stacks-node xenon
 
 ### mainnet
 
-Start a node that will join and stream blocks from the public mainnet.
+Start a node that joins and streams blocks from the public mainnet.
 
 Example:
 
@@ -376,7 +376,7 @@ mode = "xenon"
 
 #### peer_host
 
-Domain name of the host running the backend Bitcoin blockchain. It's required to either run a personal Bitcoin node locally, or to use a publicly-hosted Bitcoin node.
+Domain name of the host running the backend Bitcoin blockchain. It's required to either run a personal Bitcoin node locally, or to use a publicly hosted Bitcoin node.
 
 Example:
 
@@ -448,7 +448,7 @@ commit_anchor_block_within = 10000
 
 This section contains configuration options pertaining to the genesis block allocation for an address in micro-STX. If a user changes these values, their node may be in conflict with other nodes on the network and find themselves unable to sync with other nodes.
 
--> This section can be repeated multiple times, and thus is in double-brackets. Each section can define only one address. This section will be ignored if running a node on mainnet.
+-> This section can repeat multiple times, and thus is in double-brackets. Each section can define only one address. This section is ignored if running a node on mainnet.
 
 Example:
 

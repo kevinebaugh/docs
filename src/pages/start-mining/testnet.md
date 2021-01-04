@@ -54,11 +54,11 @@ Finally, start bitcoind as follows:
 bitcoind -conf=path/to/bitcoin.conf
 ```
 
-It will take a few hours for the node to synchronize with the Bitcoin testnet -- be patient!
+It may take a few hours for the node to synchronize with the Bitcoin testnet.
 
 ## Running a miner
 
-First, we need to generate a keychain. With this keychain, we'll get some testnet BTC from a faucet, and then use that BTC to start mining.
+First, a keychain needs to be generated. With this keychain, we'll get some testnet BTC from a faucet, and then use that BTC to start mining.
 
 To get a keychain, the simplest way is to use the `stacks-cli`. We'll use the `make_keychain` command, and pass `-t` to indicate that we want a testnet keychain.
 
