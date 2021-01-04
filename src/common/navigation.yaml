@@ -20,6 +20,7 @@ sections:
             pages:
               - path: /managing-accounts
               - path: /sending-tokens
+              - path: /running-mainnet-node
               - path: /running-testnet-node
               - path: /integrate-stacking
               - path: /stacking-using-CLI
@@ -49,7 +50,7 @@ sections:
       - path: /build-apps # is an overview page
       - path: /start-mining
         pages:
-          - path: /overview
+          - path: /mainnet
           - path: /testnet
 
   - title: Technology
